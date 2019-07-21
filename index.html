@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jesh</title>
+  <style>
+    .editor {
+      display: block;
+      position: relative;
+    }
+
+    .editor > code {
+      position: absolute;
+    }
+
+    .editor .input {
+      caret-color: #579;
+      color: transparent;
+      outline: none;
+    }
+
+    .editor .input::-moz-selection {
+      background-color: #bde;
+    }
+
+    .editor .input::selection {
+      background-color: #bde;
+    }
+
+    code {
+      color: #024;
+      display: inline-block;
+      font: 400 14px/1.4285 monospace;
+      padding: 4em 3em;
+      white-space: pre-wrap;
+    }
+
+    code > .keyword {
+      color: #135;
+      font-weight: 600;
+    }
+
+    code > .string {
+      color: #135;
+    }
+
+    code > .function {
+      color: #579;
+    }
+
+    code > .comment {
+      color: #90a0ab;
+    }
+  </style>
+</head>
+<body>
+  <script src="bundle.js"></script>
+</body>
